@@ -1,0 +1,6 @@
+.banner__image {
+  max-height: 500px;
+  width: 100vw;
+  object-fit: cover;
+  margin-top: 15px;
+}

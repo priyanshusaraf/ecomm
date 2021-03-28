@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e2e2e;
+  padding: 5px;
+  color: #ffffee;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  position: fixed;
+  width: 100%;
+}
+.navbar__logo {
+  max-height: 70px;
+  max-width: auto;
+}
+
+.navbar__ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar__list {
+  margin-right: 20px;
+}
+
+.navbar__head {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.navbar__title {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.navbar__counter {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  font-size: 14px;
+  text-align: center;
+}
